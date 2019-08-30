@@ -1,3 +1,5 @@
+Pipeline {
+      agent any
 node{
       def mvnHome = tool name: 'maven 3.5.4', type: 'maven' 
       stage('Checkout'){
